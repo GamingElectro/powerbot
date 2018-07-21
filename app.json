@@ -1,0 +1,26 @@
+{
+  "name": "powerbot",
+  "scripts": {
+  },
+  "env": {
+    "tokenfile": {
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    },
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

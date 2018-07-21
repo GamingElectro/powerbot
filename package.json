@@ -1,0 +1,16 @@
+{
+  "name": "powerbot",
+  "version": "1.0.0",
+  "description": "Power bot is the best moderation bot",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oli#8101",
+  "license": "ISC"
+}
